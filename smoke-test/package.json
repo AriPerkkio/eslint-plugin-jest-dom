@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-jest-dom-smoke-test",
+  "version": "0.0.0",
+  "description": "Smoke tests for eslint-plugin-jest-dom",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "eslint-remote-tester"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.8.2",
+    "eslint": "^7.14.0",
+    "eslint-plugin-jest-dom": "file:../dist",
+    "eslint-remote-tester": "^0.3.1"
+  }
+}
